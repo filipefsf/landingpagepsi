@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@700&family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+/* Estilização da seção principal */
+.hero-section {
+    position: relative;
+    min-height: 80vh; /* Altura mínima, pode crescer se precisar */
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.hero-section .background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/background_psi.png') no-repeat center center/cover;
+    background-size: cover;
+    filter: blur(10px); /* Agora só a imagem ficará desfocada */
+    z-index: -2;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.20); /* Overlay para melhor contraste */
+    z-index: -1;
+}
+
+.main-section-1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-presentation {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.container-presentation h4 {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    letter-spacing: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.container-presentation p {
+    width: 65%;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.container-presentation a {
+    background: linear-gradient(135deg, #D4B5A9, #A97F6E); /* Gradiente mais forte */
+    color: #fff; /* Cor do texto mais clara para contraste */
+    text-decoration: none; /* Remover o sublinhado do link */
+    padding: 12px 24px; /* Aumentar o padding para dar mais destaque */
+    border-radius: 5px; /* Bordas arredondadas */
+    display: inline-block;
+    border: 1px solid #A97F6E; /* Borda mais forte, combinando com o gradiente */
+    font-weight: bold; /* Deixar o texto mais chamativo */
+    text-transform: uppercase; /* Tornar o texto mais impactante */
+    margin-top: 40px;
+    width: 65%;
+    transition: all 0.3s ease; /* Transição suave para todas as mudanças */
+}
+
+.container-presentation a:hover {
+    border: 2px solid #A97F6E; /* Borda escurece com o hover */
+    transform: scale(1.05); /* Aumenta o tamanho do link para dar mais destaque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para dar um efeito de elevação */
+}
+
+
+.container-img {
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    width: 90%;
+}
+
+/* Ajusta a imagem dentro do container */
+.container-img img {
+    width: 70%;
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: contain;
+}
+
+/* ESTILIZAÇÃO DO PAINEL DAS ÁREAS DE ATUAÇÃO */
+
+.main-section-2 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.container-area-atuacao h2 {
+    color: #7F6054;
+}
+
+.container-area-atuacao p {
+    color: #444444 ;
+    width: 65%;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.hero-section-area-atuacao {
+    min-height: 40vh;
+}
+
+.container-areas {
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+
+.container-areas button {
+    width: 40%;
+    height: 80px;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: #7F6054 !important;
+    border: 1px solid #54362A !important;
+    
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza o conteúdo no eixo principal */
+    gap: 20px; /* Espaço entre o ícone e o texto */
+    text-align: center;
+}
+
+.container-areas button i {
+    font-size: 24px; /* Ajusta o tamanho do ícone */
+}
