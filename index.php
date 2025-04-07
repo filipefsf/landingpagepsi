@@ -44,5 +44,26 @@
     </div>
 </section>
 
+<section class="hero-section">
+    <div class="background-blur"></div> <!-- Imagem de fundo desfocada -->
+    <div class="overlay"></div> <!-- Overlay escuro para melhorar a leitura -->
+
+    <div class="main-section-1">
+        <div class="container container-presentation">
+            <h1 class="display-4 fw-bold">Quem é Ana Paula ?</h1>
+            <p> Ana Paula Assis é psicóloga recém-formada, com uma abordagem acolhedora e empática. 
+                Ela busca promover o autoconhecimento e o bem-estar emocional, oferecendo um atendimento personalizado 
+                que respeita as necessidades individuais de cada paciente. Seu trabalho é focado em apoiar pessoas 
+                no enfrentamento de desafios emocionais, visando sempre o equilíbrio e a saúde mental.
+            </p>
+            <a href="#" class="btn btn-primary btn-lg btn-action-contato fw-bold display-4">Agendar consulta</a>
+        </div>
+
+        <div class="container container-img">
+            <img src="assets/img/mulher_exemplo.png" alt="">
+        </div>
+    </div>
+</section>
+
 
 <?php include 'includes/footer.php'; ?>
