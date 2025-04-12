@@ -25,7 +25,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../img/background_psi.png') no-repeat center center/cover;
+    background: url('../img/background_psi_2.png') no-repeat center center/cover;
     background-size: cover;
     filter: blur(10px); /* Agora só a imagem ficará desfocada */
     z-index: -2;
@@ -37,7 +37,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.20); /* Overlay para melhor contraste */
+    background: rgba(0, 0, 0, 0.10); /* Overlay para melhor contraste */
     z-index: -1;
 }
 
@@ -53,18 +53,24 @@ body {
 .container-presentation {
     margin-top: 15%;
     text-align: center;
+    width: 50%;
+    z-index: 9999;
 }
 
 .container-presentation h4 {
     font-family: 'Lora', serif;
-    font-size: 1.2rem;
-    letter-spacing: 12px;
+    font-size: 20px;
+    letter-spacing: 25px;
     font-weight: 400;
     opacity: 0.8;
 }
 
+.container-presentation h1 {
+    font-size: 55px;
+}
+
 .container-presentation p {
-    width: 65%;
+    width: 69%;
     font-size: 20px;
     text-align: justify;
     margin: auto;
@@ -72,24 +78,27 @@ body {
 }
 
 .container-presentation a {
-    background: linear-gradient(135deg, #D4B5A9, #A97F6E); /* Gradiente mais forte */
-    color: #fff; /* Cor do texto mais clara para contraste */
-    text-decoration: none; /* Remover o sublinhado do link */
-    padding: 12px 24px; /* Aumentar o padding para dar mais destaque */
-    border-radius: 5px; /* Bordas arredondadas */
+    background: linear-gradient(135deg, #b88c63, #E7C7AF); /* Gradiente suave e sofisticado */
+    color: #ffffff; /* Contraste leve e elegante */
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
     display: inline-block;
-    border: 1px solid #A97F6E; /* Borda mais forte, combinando com o gradiente */
-    font-weight: bold; /* Deixar o texto mais chamativo */
-    text-transform: uppercase; /* Tornar o texto mais impactante */
+    border: 1px solid #A48C7A; /* Contorno discreto */
+    font-weight: 600;
+    text-transform: uppercase;
     margin-top: 40px;
     width: 65%;
-    transition: all 0.3s ease; /* Transição suave para todas as mudanças */
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px; /* Um leve espaçamento para sofisticação */
 }
 
 .container-presentation a:hover {
-    border: 2px solid #A97F6E; /* Borda escurece com o hover */
-    transform: scale(1.05); /* Aumenta o tamanho do link para dar mais destaque */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para dar um efeito de elevação */
+    background: linear-gradient(135deg, #a97c57, #dec1a6); /* Escurece suavemente o gradiente */
+    border: 2px solid #A48C7A; /* Mantém a elegância */
+    transform: scale(1.04); /* Pequena elevação */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06); /* Sombra sutil, um toque mais de profundidade */
+    color: #fffaf5; /* Um branco mais acolhedor, se quiser variar um pouco */
 }
 
 
@@ -97,30 +106,29 @@ body {
     display: flex;
     align-items: end;
     justify-content: left;
-    width: 90%;
+    width: 50%;
+    margin-bottom: -140px;
 }
 
 /* Ajusta a imagem dentro do container */
 .container-img img {
-    width: 70%;
+    width: 180%;
     height: auto; /* Mantém a proporção da imagem */
     object-fit: contain;
+    margin-left: -500px;
 }
 
 /* ESTILIZAÇÃO DO PAINEL DAS ÁREAS DE ATUAÇÃO */
 
 .main-section-2 {
     display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: 300px;
     align-items: center;
 }
 
 .container-area-atuacao h2 {
-    color: #7F6054;
+    color: #AB7E5A;
 }
 
 .container-area-atuacao p {
@@ -146,10 +154,9 @@ body {
     width: 40%;
     height: 80px;
     font-size: 20px;
-    margin-top: 40px;
-    background-color: #7F6054 !important;
+    margin-top: 60px;
+    background-color: #b67445 !important;
     border: 1px solid #54362A !important;
-    
     display: flex; /* Ativa o Flexbox */
     align-items: center; /* Centraliza verticalmente */
     justify-content: center; /* Centraliza o conteúdo no eixo principal */

@@ -17,7 +17,7 @@
         </div>
 
         <div class="container container-img">
-            <img src="assets/img/mulher_exemplo.png" alt="">
+            <img src="assets/img/anapaulasection1.png" alt="">
         </div>
     </div>
 </section>
@@ -60,7 +60,7 @@
         </div>
 
         <div class="container container-img">
-            <img src="assets/img/mulher_exemplo.png" alt="">
+            <img src="assets/img/anapaulasection1.png" alt="">
         </div>
     </div>
 </section>
