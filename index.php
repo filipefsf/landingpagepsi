@@ -60,7 +60,7 @@
         </div>
 
         <div class="container container-img">
-            <img src="assets/img/pastora_section_2.png" alt="">
+            <img src="assets/img/teste_pas.png" alt="">
         </div>
     </div>
 </section>
