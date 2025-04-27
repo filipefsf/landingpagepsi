@@ -3,13 +3,14 @@
 body {
     font-family: 'Lora', serif;
     text-align: center;
+    filter: brightness(0.92) sepia(0.2) hue-rotate(-10deg) saturate(1.2);
 }
 
 /* Estilização da seção principal */
 .hero-section {
     position: relative;
     min-height: 80vh; /* Altura mínima, pode crescer se precisar */
-    padding: 80px 0;
+    padding: 65px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +26,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../img/background_psi_2.png') no-repeat center center/cover;
+    background: linear-gradient(to right, #DEC1A6 0%, #862608 200%, #000000 100%);
     background-size: cover;
     filter: blur(10px); /* Agora só a imagem ficará desfocada */
     z-index: -2;
@@ -37,7 +38,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.10); /* Overlay para melhor contraste */
+    background: rgba(0, 0, 0, 0.00); /* Overlay para melhor contraste */
     z-index: -1;
 }
 
@@ -48,25 +49,31 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    border: 2px solid #ececec;
 }
 
 .container-presentation {
     margin-top: 15%;
     text-align: center;
+    margin-left: 30px;
     width: 50%;
     z-index: 9999;
 }
 
 .container-presentation h4 {
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 28px;
     letter-spacing: 25px;
-    font-weight: 400;
+    font-weight: bold;
     opacity: 0.8;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .container-presentation h1 {
-    font-size: 55px;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
 }
 
 .container-presentation p {
@@ -75,16 +82,17 @@ body {
     text-align: justify;
     margin: auto;
     margin-top: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .container-presentation a {
-    background: linear-gradient(135deg, #b88c63, #E7C7AF); /* Gradiente suave e sofisticado */
+    background-color: #C77056;
     color: #ffffff; /* Contraste leve e elegante */
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 6px;
     display: inline-block;
-    border: 1px solid #A48C7A; /* Contorno discreto */
+    border: none;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 40px;
@@ -94,10 +102,9 @@ body {
 }
 
 .container-presentation a:hover {
-    background: linear-gradient(135deg, #a97c57, #dec1a6); /* Escurece suavemente o gradiente */
-    border: 2px solid #A48C7A; /* Mantém a elegância */
+    background-color: #C77056;
     transform: scale(1.04); /* Pequena elevação */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06); /* Sombra sutil, um toque mais de profundidade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para elevação */
     color: #fffaf5; /* Um branco mais acolhedor, se quiser variar um pouco */
 }
 
@@ -107,15 +114,16 @@ body {
     align-items: end;
     justify-content: left;
     width: 50%;
-    margin-bottom: -140px;
+    margin-bottom: -124px;
 }
 
 /* Ajusta a imagem dentro do container */
 .container-img img {
-    width: 180%;
+    width: 82%;
     height: auto; /* Mantém a proporção da imagem */
     object-fit: contain;
-    margin-left: -500px;
+    margin-left: 40px;
+    transform: rotate(2deg);
 }
 
 /* ESTILIZAÇÃO DO PAINEL DAS ÁREAS DE ATUAÇÃO */
@@ -128,7 +136,7 @@ body {
 }
 
 .container-area-atuacao h2 {
-    color: #AB7E5A;
+    color: #C77056;
 }
 
 .container-area-atuacao p {
@@ -141,7 +149,7 @@ body {
 }
 
 .hero-section-area-atuacao {
-    min-height: 40vh;
+    min-height: 53vh;
 }
 
 .container-areas {
@@ -150,20 +158,21 @@ body {
     flex-wrap: wrap;
 }
 
-.container-areas button {
+.container-areas div {
     width: 40%;
-    height: 80px;
+    height: 100px;
     font-size: 20px;
     margin-top: 60px;
-    background-color: #b67445 !important;
+    background-color: #C66959 !important;
     border: 1px solid #54362A !important;
     display: flex; /* Ativa o Flexbox */
     align-items: center; /* Centraliza verticalmente */
     justify-content: center; /* Centraliza o conteúdo no eixo principal */
     gap: 20px; /* Espaço entre o ícone e o texto */
     text-align: center;
+    cursor:auto;
 }
 
-.container-areas button i {
+.container-areas div i {
     font-size: 24px; /* Ajusta o tamanho do ícone */
 }

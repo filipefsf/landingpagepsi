@@ -17,7 +17,7 @@
         </div>
 
         <div class="container container-img">
-            <img src="assets/img/anapaulasection1.png" alt="">
+            <img src="assets/img/pastora_oficial.png" alt="">
         </div>
     </div>
 </section>
@@ -35,10 +35,10 @@
         </div>
 
         <div class="container container-areas">
-            <button class="btn btn-secondary" disabled><i class="fa-solid fa-head-side-virus"></i>Ansiedade</button>
-            <button class="btn btn-secondary" disabled><i class="fa-solid fa-face-sad-tear"></i>Depressão</button>
-            <button class="btn btn-secondary" disabled><i class="fa-solid fa-heart-crack"></i>Relacionamento</button>
-            <button class="btn btn-secondary" disabled><i class="fa-solid fa-hands-holding-child"></i>Psicologia Infantil</button>
+            <div class="btn btn-secondary" disabled><i class="fa-solid fa-head-side-virus"></i>Ansiedade</div>
+            <div class="btn btn-secondary" disabled><i class="fa-solid fa-face-sad-tear"></i>Depressão</div>
+            <div class="btn btn-secondary" disabled><i class="fa-solid fa-heart-crack"></i>Relacionamento</div>
+            <div class="btn btn-secondary" disabled><i class="fa-solid fa-hands-holding-child"></i>Psicologia Infantil</div>
         </div>
 
     </div>
@@ -60,7 +60,7 @@
         </div>
 
         <div class="container container-img">
-            <img src="assets/img/anapaulasection1.png" alt="">
+            <img src="assets/img/pastora_section_2.png" alt="">
         </div>
     </div>
 </section>
