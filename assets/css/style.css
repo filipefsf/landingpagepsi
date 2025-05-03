@@ -3,7 +3,8 @@
 body {
     font-family: 'Lora', serif;
     text-align: center;
-    filter: brightness(0.92) sepia(0.2) hue-rotate(-10deg) saturate(1.2);
+    filter: brightness(0.99) sepia(0.15) hue-rotate(-9deg) saturate(1.15);
+    box-sizing: border-box;
 }
 
 /* Estilização da seção principal */
@@ -53,11 +54,15 @@ body {
 }
 
 .container-presentation {
-    margin-top: 15%;
+    margin-top: 9%;
     text-align: center;
     margin-left: 30px;
     width: 50%;
     z-index: 9999;
+}
+
+.container-presentation-1 {
+    margin-top: 11%;
 }
 
 .container-presentation h4 {
@@ -119,11 +124,10 @@ body {
 
 /* Ajusta a imagem dentro do container */
 .container-img img {
-    width: 82%;
+    width: 70vh;
     height: auto; /* Mantém a proporção da imagem */
     object-fit: contain;
     margin-left: 40px;
-    transform: rotate(2deg);
 }
 
 /* ESTILIZAÇÃO DO PAINEL DAS ÁREAS DE ATUAÇÃO */
@@ -135,11 +139,13 @@ body {
     align-items: center;
 }
 
-.container-area-atuacao h2 {
+.container-area-atuacao h2,
+.container-terapia-cognitivo-comportamental h2 {
     color: #C77056;
 }
 
-.container-area-atuacao p {
+.container-area-atuacao p,
+.container-terapia-cognitivo-comportamental p {
     color: #444444 ;
     width: 65%;
     font-size: 20px;
@@ -148,8 +154,10 @@ body {
     margin-top: 40px;
 }
 
-.hero-section-area-atuacao {
+.hero-section-area-atuacao,
+.hero-section-cognitivo-comportamental {
     min-height: 53vh;
+    background-color: #ededec;
 }
 
 .container-areas {

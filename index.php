@@ -6,8 +6,8 @@
     <div class="overlay"></div> <!-- Overlay escuro para melhorar a leitura -->
 
     <div class="main-section-1">
-        <div class="container container-presentation">
-            <h4 class="display-6">ANA PAULA ASSIS</h4>
+        <div class="container container-presentation container-presentation-1">
+            <h4 class="display-6">ANA PAULA JARDIM</h4>
             <h1 class="display-4 fw-bold">Atendimento psicológico</h1>
             <p> Cuide da sua <b>saúde mental</b> com um atendimento psicológico especializado. 
                             Agende sua sessão de psicoterapia e comece hoje mesmo sua jornada para 
@@ -22,6 +22,7 @@
     </div>
 </section>
 
+<!-- Seção das áreas de atuação -->
 <section class="hero-section hero-section-area-atuacao">
     <div class="main-section-2">
         <div class="container container-area-atuacao">
@@ -44,6 +45,7 @@
     </div>
 </section>
 
+<!-- Seção de sobre Ana Paula -->
 <section class="hero-section">
     <div class="background-blur"></div> <!-- Imagem de fundo desfocada -->
     <div class="overlay"></div> <!-- Overlay escuro para melhorar a leitura -->
@@ -61,6 +63,25 @@
 
         <div class="container container-img">
             <img src="assets/img/pastorasection2.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Seção sobre terapia cognitivo comportamental -->
+<section class="hero-section hero-section-cognitivo-comportamental">
+    <div class="main-section-2">
+        <div class="container container-terapia-cognitivo-comportamental">
+            <h2 class="display-6 fw-bold">
+                Terapia cognitivo comportamental?
+            </h2>
+            <p> É uma abordagem terapêutica que foca na conexão entre pensamentos, emoções e comportamentos.
+                Ela busca identificar padrões de pensamento negativos e distorcidos, ajudando a substituí-los por pensamentos
+                mais realistas e saudáveis.
+            </p>
+
+            <p>Além disso, ela concentra-se em desenvolver estratégias práticas para lidar com desafios emocionais, promovendo
+                mudanças positivas através da compreensão e ação.
+            </p>
         </div>
     </div>
 </section>
