@@ -7,7 +7,7 @@
 
     <div class="main-section-1">
         <div class="container container-presentation container-presentation-1">
-            <h4 class="display-6">ANA PAULA JARDIM</h4>
+            <h4 class="display-6">ANA PAULA TORRES JARDIM</h4>
             <h1 class="display-4 fw-bold">Atendimento psicológico</h1>
             <p> Cuide da sua <b>saúde mental</b> com um atendimento psicológico especializado. 
                             Agende sua sessão de psicoterapia e comece hoje mesmo sua jornada para 
@@ -82,6 +82,9 @@
             <p>Além disso, ela concentra-se em desenvolver estratégias práticas para lidar com desafios emocionais, promovendo
                 mudanças positivas através da compreensão e ação.
             </p>
+        </div>
+        <div class="container container-img-terapia">
+            <img src="assets/img/terapia_cog_temp.png" alt="">
         </div>
     </div>
 </section>

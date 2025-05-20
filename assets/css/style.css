@@ -67,8 +67,8 @@ body {
 
 .container-presentation h4 {
     font-family: 'Lora', serif;
-    font-size: 28px;
-    letter-spacing: 25px;
+    font-size: 18px;
+    letter-spacing: 18px;
     font-weight: bold;
     opacity: 0.8;
     margin-bottom: 25px;
@@ -76,7 +76,7 @@ body {
 }
 
 .container-presentation h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 
 }
