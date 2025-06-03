@@ -10,7 +10,7 @@ body {
 /* Estilização da seção principal */
 .hero-section {
     position: relative;
-    min-height: 80vh; /* Altura mínima, pode crescer se precisar */
+    min-height: 80vh; /* Altura mÃ­nima, pode crescer se precisar */
     padding: 65px 0;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@ body {
     height: 100%;
     background: linear-gradient(to right, #DEC1A6 0%, #862608 200%, #000000 100%);
     background-size: cover;
-    filter: blur(10px); /* Agora só a imagem ficará desfocada */
+    filter: blur(10px); /* Agora a imagem ficará desfocada */
     z-index: -2;
 }
 
@@ -65,6 +65,12 @@ body {
     margin-top: 11%;
 }
 
+.container-presentation h4,
+.container-presentation h1,
+.container-presentation p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .container-presentation h4 {
     font-family: 'Lora', serif;
     font-size: 18px;
@@ -72,13 +78,10 @@ body {
     font-weight: bold;
     opacity: 0.8;
     margin-bottom: 25px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .container-presentation h1 {
     font-size: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-
 }
 
 .container-presentation p {
@@ -87,7 +90,6 @@ body {
     text-align: justify;
     margin: auto;
     margin-top: 40px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .container-presentation a {
@@ -130,7 +132,11 @@ body {
     margin-left: 40px;
 }
 
-/* ESTILIZAÇÃO DO PAINEL DAS ÁREAS DE ATUAÇÃO */
+.container-img-2 img {
+    width: 65vh !important;
+}
+
+/* ESTILIZACAÇÃO DO PAINEL DAS ÁREAS DE ATUAÇÃO */
 
 .main-section-2 {
     display: flex;
@@ -183,4 +189,94 @@ body {
 
 .container-areas div i {
     font-size: 24px; /* Ajusta o tamanho do ícone */
+}
+
+/* ----- Seção de Depoimentos ----- */
+
+.hero-section-depoimentos {
+    min-height: 50vh !important;
+}
+
+.hero-section-depoimentos h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section-depoimentos p{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container-depoimentos {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.depoimentos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card-depoimento {
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    font-style: italic;
+    position: relative;
+    transition: transform 0.3s;
+    border: 1px solid white;;
+}
+
+.card-depoimento:hover {
+    transform: translateY(-5px);
+}
+
+.card-depoimento h6 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+    font-style: normal;
+}
+
+/* ----- Seção de FAQ ----- */
+.hero-section-faq {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.container-faq {
+    max-width: 900px;
+    margin: auto;
+}
+
+.faq-item {
+    background-color: #f1f3f5;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color: #e9ecef;
+}
+
+.faq-item h5 {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.faq-item h5 i {
+    margin-right: 10px;
+    color: #0d6efd; /* cor azul do bootstrap */
+}
+
+.faq-item p {
+    margin: 0;
+    color: #495057;
 }
