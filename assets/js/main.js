@@ -22,3 +22,44 @@
 		$('.scrolly').scrolly();
 
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", () => {
+  const phrases = [
+    "Você não precisa enfrentar tudo sozinho.",
+    "Sua saúde mental importa.",
+    "Vamos construir esse caminho juntos.",
+    "O primeiro passo é o mais importante."
+  ];
+
+  const typedText = document.getElementById("typed-text");
+  let currentPhrase = 0;
+  let currentChar = 0;
+  let isDeleting = false;
+  let typingSpeed = 60;
+  let delayBetweenPhrases = 2000;
+
+  function type() {
+    const fullText = phrases[currentPhrase];
+
+    if (isDeleting) {
+      currentChar--;
+    } else {
+      currentChar++;
+    }
+
+    typedText.textContent = fullText.substring(0, currentChar);
+
+    if (!isDeleting && currentChar === fullText.length) {
+      isDeleting = true;
+      setTimeout(type, delayBetweenPhrases);
+    } else if (isDeleting && currentChar === 0) {
+      isDeleting = false;
+      currentPhrase = (currentPhrase + 1) % phrases.length;
+      setTimeout(type, 300);
+    } else {
+      setTimeout(type, isDeleting ? typingSpeed / 2 : typingSpeed);
+    }
+  }
+
+  type();
+});

@@ -66,6 +66,41 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Efeitos no geral */
+	.fade-in {
+		opacity: 0;
+		animation: fadeIn 2s ease-in forwards;
+	}
+
+	.fade-in-delay {
+		animation-delay: 1s;
+	}
+
+	.fade-in-late {
+		animation-delay: 2s;
+	}
+
+	@keyframes fadeIn {
+		to {
+			opacity: 1;
+		}
+	}
+
+	/* Estilo do efeito de digitação */
+	.typing {
+		display: inline;
+		border-right: 2px solid #fff;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: blink-caret 0.7s step-end infinite;
+	}
+
+	@keyframes blink-caret {
+		50% {
+			border-color: transparent;
+		}
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2018,12 +2053,30 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+		.button-consulta {
+			margin-bottom: 20px;
+			background: rgb(12 193 68 / 17%) !important;
+		}
+
+		.button-consulta i {
+			margin-right: 0.5em;
+		}
+
+		.button-consulta,
+		.button-saiba-mais {
+			width: 50%;
+		}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
 			background: #4f4f4f;
+		}
+
+		.button-consulta:hover {
+			background: rgb(12 193 68 / 25%) !important;
 		}
 
 		input[type="button"].alt,
@@ -2176,19 +2229,37 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header_psi_3.jpg");
+		background-image: url("images/overlay.png"), url("../../images/header_psi_2.jpg");
 		background-size: auto, cover;
-		background-position: top left, center center;
+		background-position: top 60% center;
 		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
+		padding: 13em 0 12em 0;
 		text-align: center;
 		color: #fff;
+		overflow: hidden;
 	}
+
+		#header::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.4); /* Aqui está o leve escurecimento (ajuste o 0.4) */
+			z-index: 0;
+		}
+
+		/* Coloque o conteúdo do header acima do escurecimento */
+		#header > * {
+			position: relative;
+			z-index: 1;
+		}
 
 		#header header h1 {
 			font-size: 2.25em;
 			line-height: 1.25em;
-			margin-bottom: 0;
+			margin-bottom: 30px;
 		}
 
 		#header header p {

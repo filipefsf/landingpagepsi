@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Dra. Ana Paula Torres Jardim | Psicóloga Clínica</title>
+		<title>Ana Paula Assis Torres Jardim | Psicóloga Clínica</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -11,11 +12,14 @@
 		<!-- Header -->
 			<section id="header" class="dark">
 				<header>
-					<h1>Welcome to Tessellate</h1>
-					<p>A free responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+					<h1 class="fade-in">Ana Paula | Psicóloga Clínica</h1>
+					<p class="typing" id="typed-text"></p>
 				</header>
 				<footer>
-					<a href="#first" class="button scrolly">Proceed to second phase</a>
+					<a href="https://wa.me/+5531998332414" target="_blank" class="button button-consulta fade-in fade-in-delay">
+					<i class="fab fa-whatsapp" style="margin-right: 0.5em;"></i> Entre em contato comigo
+					</a><br>
+					<a href="#first" class="button button-saiba-mais scrolly fade-in fade-in-late">Saiba mais</a>
 				</footer>
 			</section>
 
