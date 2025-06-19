@@ -10,18 +10,20 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<section id="header" class="dark">
+		<section id="header" class="dark">
+			<div class="header-content"> <!-- wrapper para aplicar o deslocamento -->
 				<header>
-					<h1 class="fade-in">Ana Paula | Psicóloga Clínica</h1>
-					<p class="typing" id="typed-text"></p>
+				<h1 class="fade-in">Ana Paula Torres Jardim | Psicóloga Clínica</h1>
+				<p class="typing" id="typed-text"></p>
 				</header>
 				<footer>
-					<a href="https://wa.me/+5531998332414" target="_blank" class="button button-consulta fade-in fade-in-delay">
+				<a href="https://wa.me/+5531998332414" target="_blank" class="button button-consulta fade-in fade-in-delay">
 					<i class="fab fa-whatsapp" style="margin-right: 0.5em;"></i> Entre em contato comigo
-					</a><br>
-					<a href="#first" class="button button-saiba-mais scrolly fade-in fade-in-late">Saiba mais</a>
+				</a><br>
+				<a href="#first" class="button button-saiba-mais scrolly fade-in fade-in-late">Saiba mais</a>
 				</footer>
-			</section>
+			</div>
+		</section>
 
 		<!-- First -->
 			<section id="first" class="main">

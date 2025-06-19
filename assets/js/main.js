@@ -25,17 +25,21 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const phrases = [
-    "Você não precisa enfrentar tudo sozinho.",
+	"Olá, pastora! Seja bem-vinda!",
+	"Aqui você pode colocar diversas frases como:",
+    "Você não precisa enfrentar tudo sozinho(a).",
     "Sua saúde mental importa.",
-    "Vamos construir esse caminho juntos.",
-    "O primeiro passo é o mais importante."
+    "Vamos construir esse caminho juntos(as).",
+    "O primeiro passo é o mais importante.",
+	"E muitas outras...",
+	"Não se preocupe, apenas as que você quiser irão permanecer ;)"
   ];
 
   const typedText = document.getElementById("typed-text");
   let currentPhrase = 0;
   let currentChar = 0;
   let isDeleting = false;
-  let typingSpeed = 60;
+  let typingSpeed = 65;
   let delayBetweenPhrases = 2000;
 
   function type() {
@@ -57,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       currentPhrase = (currentPhrase + 1) % phrases.length;
       setTimeout(type, 300);
     } else {
-      setTimeout(type, isDeleting ? typingSpeed / 2 : typingSpeed);
+      setTimeout(type, isDeleting ? typingSpeed / 3 : typingSpeed);
     }
   }
 

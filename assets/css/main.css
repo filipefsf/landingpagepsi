@@ -2239,6 +2239,13 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
+		.header-content {
+			position: relative;
+			top: 10vh; /* desloca só o conteúdo verticalmente para baixo */
+			text-align: center;
+			padding: 0 1em; /* espaço lateral em mobile */
+		}
+
 		#header::before {
 			content: "";
 			position: absolute;
