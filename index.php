@@ -17,10 +17,10 @@
 				<p class="typing" id="typed-text"></p>
 				</header>
 				<footer>
-				<a href="https://wa.me/+5531998332414" target="_blank" class="button button-consulta fade-in fade-in-delay">
-					<i class="fab fa-whatsapp" style="margin-right: 0.5em;"></i> Entre em contato comigo
-				</a><br>
-				<a href="#first" class="button button-saiba-mais scrolly fade-in fade-in-late">Saiba mais</a>
+					<a href="#first" class="button button-saiba-mais scrolly fade-in fade-in-delay">Saiba mais</a>
+					<a href="https://wa.me/+5531998332414" target="_blank" class="button button-consulta fade-in fade-in-late">
+						<i class="fab fa-whatsapp" style="margin-right: 0.5em;"></i> Entre em contato comigo
+					</a>
 				</footer>
 			</div>
 		</section>

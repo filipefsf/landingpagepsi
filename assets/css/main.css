@@ -2053,8 +2053,11 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		.button-consulta {
+		.button-saiba-mais {
 			margin-bottom: 20px;
+		}
+
+		.button-consulta {
 			background: rgb(12 193 68 / 17%) !important;
 		}
 
