@@ -17,7 +17,7 @@
 				<p class="typing" id="typed-text"></p>
 				</header>
 				<footer>
-					<a href="#first" class="button button-saiba-mais scrolly fade-in fade-in-delay">Saiba mais</a>
+					<a href="#first" class="button button-saiba-mais scrolly fade-in fade-in-delay">Conheça meu trabalho</a>
 					<a href="https://wa.me/+5531998332414" target="_blank" class="button button-consulta fade-in fade-in-late">
 						<i class="fab fa-whatsapp" style="margin-right: 0.5em;"></i> Entre em contato comigo
 					</a>
@@ -28,54 +28,57 @@
 		<!-- First -->
 			<section id="first" class="main">
 				<header>
-					<div class="container">
-						<h2>Tessellate is a free responsive site template</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
+				<div class="container">
+					<h2>O que é a Terapia Cognitivo-Comportamental?</h2>
+					<p>
+						Já parou pra pensar como um simples pensamento pode mudar o seu dia inteiro?
+						E quando a ansiedade aparece do nada, sem aviso, será que tem algo por trás?
+						Você sabia que muitas das emoções difíceis que sentimos estão ligadas à forma como interpretamos o que acontece à nossa volta?
+					</p>
+					<p>
+						A Terapia Cognitivo-Comportamental (TCC) te convida a olhar pra dentro, entender esses padrões e descobrir que, <strong>muitas vezes, o maior desafio está na forma como pensamos — e não nos fatos em si</strong>.
+					</p>
+				</div>
 				</header>
 				<div class="content dark style1 featured">
 					<div class="container">
 						<div class="row">
 							<div class="col-4 col-12-narrow">
 								<section>
-									<span class="feature-icon"><span class="icon fa-clock"></span></span>
+									<span class="feature-icon"><span class="icon solid fa-brain"></span></span>
 									<header>
-										<h3>Gravida</h3>
+										<h3>Entenda seus pensamentos</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
+										<p>
+											A TCC ajuda você a identificar padrões de pensamento que influenciam suas emoções e comportamentos. O primeiro passo é reconhecer o que está por trás do que sentimos.
+										</p>
 								</section>
 							</div>
 							<div class="col-4 col-12-narrow">
 								<section>
-									<span class="feature-icon"><span class="icon solid fa-bolt"></span></span>
+									<span class="feature-icon"><span class="icon solid fa-heart"></span></span>
 									<header>
-										<h3>Vivamus</h3>
+										<h3>Regule suas emoções</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
+									<p>
+										Ao compreender melhor como você interpreta as situações, fica mais fácil lidar com a ansiedade, o estresse e a tristeza. A TCC oferece ferramentas para isso.
+									</p>
 								</section>
 							</div>
 							<div class="col-4 col-12-narrow">
 								<section>
-									<span class="feature-icon"><span class="icon solid fa-cloud"></span></span>
+									<span class="feature-icon"><span class="icon solid fa-shoe-prints"></span></span>
 									<header>
-										<h3>Accumsan</h3>
+										<h3>Mude na prática</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
+									<p>
+										Mais do que conversar, a TCC incentiva pequenas ações no dia a dia que geram grandes mudanças. Você aprende a sair do automático e agir com mais consciência.
+									</p>
 								</section>
 							</div>
 							<div class="col-12">
 								<footer>
-									<a href="#second" class="button scrolly">Gravida tempor lacinia</a>
+									<a href="#second" class="button scrolly">Saiba mais sobre a TCC</a>
 								</footer>
 							</div>
 						</div>
