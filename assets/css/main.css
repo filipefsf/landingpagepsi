@@ -285,6 +285,15 @@ input, select, textarea {
 			width: 1020px;
 		}
 
+		.container-first p {
+			text-align: justify !important;
+		}
+
+		.container-third h2 {
+			text-align: center;
+			font-size: 2.25em;
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -313,6 +322,19 @@ input, select, textarea {
 
 			.container {
 				width: 100% !important;
+			}
+
+			.container-third h2 {
+				font-size: 1.5em !important;
+			}
+
+			.container-third h3 {
+				text-align: left;
+			}
+
+			.duvidas-sections {
+				width: 100% !important;
+				min-height: 0px !important;
 			}
 
 		}
@@ -2070,6 +2092,10 @@ input, select, textarea {
 			width: 50%;
 		}
 
+		.button-duvidas {
+			width: 60%;
+		}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -2136,6 +2162,52 @@ input, select, textarea {
 				box-shadow: inset 0 0 0 1px #fff;
 			}
 
+/* Sections */
+	#third h3 {
+		position: relative;
+		padding-left: 1.2em;
+	}
+
+	#third h3::after {
+		content: '+';
+		position: absolute;
+		left: 0; /* agora à esquerda */
+		top: 0.1em;
+		font-size: 0.8em;
+		transition: transform 0.3s ease;
+	}
+
+	#third h3.open::after {
+		transform: rotate(180deg);
+		content: '--';
+	}
+
+	.col-duvidas {
+		width: 100% !important;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.duvidas-sections {
+		width: 45%;
+		background: rgba(255, 255, 255, 0.03);
+		padding: 1em 1em;
+		border-radius: 8px;
+		transition: background 0.3s ease, transform 0.3s ease;
+		margin-bottom: 1em;
+		cursor: pointer;
+		min-height: 200px;
+	}
+
+	.duvidas-sections:hover {
+		background: rgba(255, 255, 255, 0.07);
+		transform: translateY(-4px);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	}
+
+
 /* Feature Icon */
 
 	.feature-icon {
@@ -2144,6 +2216,11 @@ input, select, textarea {
 		padding-bottom: 5em;
 		margin-bottom: 2.75em;
 		cursor: default;
+		opacity: 0;
+		transform: rotateY(90deg) scale(0.9);
+		transition: transform 0.8s ease, opacity 0.8s ease;
+		transform-style: preserve-3d;
+		will-change: transform, opacity;
 	}
 
 		.feature-icon .icon {
@@ -2180,6 +2257,27 @@ input, select, textarea {
 			background: #666;
 			margin-left: -0.5px;
 		}
+
+
+		.feature-icon.animate {
+			opacity: 1;
+			transform: rotateY(0deg) scale(1);
+		}
+
+		/* Animação do conteúdo textual */
+		.feature-icon + header,
+		.feature-icon + header + p {
+			opacity: 0;
+			transform: translateY(20px);
+			transition: opacity 0.8s ease, transform 0.8s ease;
+		}
+
+		.feature-icon.animate + header,
+		.feature-icon.animate + header + p {
+			opacity: 1;
+			transform: translateY(0);
+		}
+
 
 	.dark .feature-icon .icon {
 		background: rgba(255, 255, 255, 0.15);
@@ -2380,6 +2478,11 @@ input, select, textarea {
 
 		#footer ul.icons a {
 			box-shadow: inset 0 0 0 1px #d6d6d6;
+		}
+
+		.footer-duvidas {
+			width: 100%;
+			text-align: center;
 		}
 
 /* Wide */
