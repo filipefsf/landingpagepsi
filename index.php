@@ -40,7 +40,7 @@
 					</p>
 				</div>
 				</header>
-				<div class="content dark style1 featured">
+				<div class="content dark style5 featured">
 					<div class="container">
 						<div class="row">
 							<div class="col-4 col-12-narrow">

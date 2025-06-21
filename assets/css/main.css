@@ -2236,7 +2236,7 @@ input, select, textarea {
 		background-size: auto, cover;
 		background-position: top 60% center;
 		background-repeat: repeat, no-repeat;
-		padding: 13em 0 12em 0;
+		padding: 14em 0 13em 0;
 		text-align: center;
 		color: #fff;
 		overflow: hidden;
@@ -2338,6 +2338,24 @@ input, select, textarea {
 			.main > .content.style4 {
 				padding-top: 0;
 				background: #fff;
+			}
+
+			.main > .content.style5 {
+				background: 
+					url("images/bgtr.svg") top right no-repeat, 
+					url("images/bgbl.svg") bottom left no-repeat, 
+					url("images/bgbl.svg") bottom left no-repeat, 
+					url("images/overlay.png"), 
+					linear-gradient(45deg, #4a4635, #5a6a58, #352E1E);
+			}
+
+			.main > .content.style6 {
+				background: 
+					url("images/bgtr.svg") top right no-repeat, 
+					url("images/bgbl.svg") bottom left no-repeat, 
+					url("images/bgbl.svg") bottom left no-repeat, 
+					url("images/overlay.png"), 
+					linear-gradient(45deg, #D89C6A, #AC693A, #5C3B2E);
 			}
 
 /* Footer */
