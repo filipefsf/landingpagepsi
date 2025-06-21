@@ -40,14 +40,10 @@ window.addEventListener('beforeunload', function () {
 // Controle de evento de digitação na primeira seção
 document.addEventListener("DOMContentLoaded", () => {
   const phrases = [
-	"Olá, pastora! Seja bem-vinda!",
-	"Aqui você pode colocar diversas frases como:",
     "Você não precisa enfrentar tudo sozinho(a).",
     "Sua saúde mental importa.",
     "Vamos construir esse caminho juntos(as).",
     "O primeiro passo é o mais importante.",
-	"E muitas outras...",
-	"Não se preocupe, apenas as que você quiser irão permanecer ;)"
   ];
 
   const typedText = document.getElementById("typed-text");
