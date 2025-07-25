@@ -1693,7 +1693,8 @@ input, select, textarea {
 	}
 
 		ul.menu li {
-			display: inline-block;
+			display: block;
+			margin-bottom: 12px !important;
 			line-height: 1em;
 			border-left: solid 1px #e6e6e6;
 			padding: 0 0 0 0.5em;
@@ -2406,7 +2407,7 @@ input, select, textarea {
 			.main > header p {
 				margin: 2em 0 0 0;
 				padding: 0;
-				text-align: center;
+				text-align: justify !important;
 			}
 
 		.main > .content {
@@ -2516,6 +2517,10 @@ input, select, textarea {
 				line-height: 1.75em;
 			}
 
+			#header {
+				padding: 9em 0 13em 0;
+			}
+
 	}
 
 /* Normal */
@@ -2538,7 +2543,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 12em 0 12em 0;
+				padding: 7em 0 12em 0;
 			}
 
 		/* Main Sections */
@@ -2687,7 +2692,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 20px 6em 20px;
+				padding: 6em 20px 7em 20px;
 			}
 
 				#header > header {
