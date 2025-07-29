@@ -123,5 +123,20 @@ function animateIconsOnScroll() {
 	});
 }
 
+function animateOnScroll() {
+  const elements = document.querySelectorAll('.scroll-fade');
+
+  elements.forEach((el) => {
+    const rect = el.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight * 0.65;
+
+    if (isVisible) {
+      el.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', animateOnScroll);
+window.addEventListener('load', animateOnScroll);
 window.addEventListener('scroll', animateIconsOnScroll);
 window.addEventListener('load', animateIconsOnScroll);

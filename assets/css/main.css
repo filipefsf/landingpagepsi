@@ -66,6 +66,22 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Specific */
+	.nome {
+		margin-bottom: 0px !important;
+	}
+	.profissional {
+		margin-top: 0px !important;
+	}
+
+	.badge-crp {
+		background-color: rgba(255,255,255,0.2);
+		padding: 0.2em 0.6em;
+		border-radius: 5px;
+		font-size: 0.85em;
+		margin-left: 0.5em;
+	}
+
 /* Efeitos no geral */
 	.fade-in {
 		opacity: 0;
@@ -85,6 +101,18 @@ input, select, textarea {
 			opacity: 1;
 		}
 	}
+
+	.scroll-fade {
+		opacity: 0;
+		transform: translateY(30px);
+		transition: opacity 0.9s ease, transform 0.9s ease;
+	}
+
+	.scroll-fade.visible {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
 
 	/* Estilo do efeito de digitação */
 	.typing {
@@ -2078,6 +2106,7 @@ input, select, textarea {
 
 		.button-saiba-mais {
 			margin-bottom: 20px;
+			margin-top: 15px;
 		}
 
 		.button-consulta {
@@ -2333,9 +2362,9 @@ input, select, textarea {
 		margin: 0;
 		background-image: url("images/overlay.png"), url("../../images/header_psi_2.jpg");
 		background-size: auto, cover;
-		background-position: top 60% center;
+		background-position: top 50% center;
 		background-repeat: repeat, no-repeat;
-		padding: 14em 0 13em 0;
+		padding: 11em 0 13em 0;
 		text-align: center;
 		color: #fff;
 		overflow: hidden;
@@ -2692,7 +2721,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 20px 7em 20px;
+				padding: 6em 20px 9em 20px;
 			}
 
 				#header > header {
