@@ -2728,6 +2728,10 @@ input, select, textarea {
 					padding: 0 1em 0 1em;
 				}
 
+				#header header h1 {
+					font-size: 2em;
+				}
+
 		/* Main Sections */
 
 			.main > header {
