@@ -2505,6 +2505,14 @@ input, select, textarea {
 					linear-gradient(45deg, #CEC1B0, #BFAF9A, #A4937F);
 			}
 
+			.main > .content.style9 {
+				background: 
+					url("images/bgtr.svg") top right no-repeat, 
+					url("images/bgbl.svg") bottom left no-repeat, 
+					url("images/overlay.png"), 
+					linear-gradient(45deg, #8c8c8c, #bfa68e, #b4a494);
+			}
+
 
 /* Footer */
 
