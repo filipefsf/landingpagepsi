@@ -2774,4 +2774,8 @@ input, select, textarea {
 		#header {
 			background-position: top 90% center;
 		}
+
+		.header-content {
+			top: 13vh
+		}
 	}
