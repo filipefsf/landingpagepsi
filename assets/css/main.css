@@ -2360,9 +2360,9 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header_psi_2.jpg");
+		background-image: url("images/overlay.png"), url("../../images/header_psi_5.jpg");
 		background-size: auto, cover;
-		background-position: top 50% center;
+		background-position: top 60% center;
 		background-repeat: repeat, no-repeat;
 		padding: 11em 0 13em 0;
 		text-align: center;
@@ -2513,6 +2513,14 @@ input, select, textarea {
 					linear-gradient(45deg, #8c8c8c, #bfa68e, #b4a494);
 			}
 
+			.main > .content.style10 {
+				background: 
+					url(images/bgtr.svg) top right no-repeat, 
+					url(images/bgbl.svg) bottom left no-repeat, 
+					url(images/overlay.png), 
+					linear-gradient(45deg, #8c8c8c, #bfa68e 12%, #CA8446 50%, #b4a494)
+			}
+
 
 /* Footer */
 
@@ -2629,6 +2637,7 @@ input, select, textarea {
 			#header {
 				margin: 0 !important;
 				padding: 8em 2em 8em 2em;
+				background-position: top 70% center;
 			}
 
 				#header header p {
@@ -2730,6 +2739,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 20px 9em 20px;
+				background-position: top 75% center;
 			}
 
 				#header > header {
@@ -2758,4 +2768,10 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
+	}
+
+	@media screen and (max-width: 500px) {
+		#header {
+			background-position: top 90% center;
+		}
 	}
